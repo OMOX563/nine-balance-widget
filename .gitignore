@@ -1,0 +1,18 @@
+# build/test scratch files and local diagnostics
+_*.png
+__*.mjs
+__check.mjs
+
+# editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# credentials: no key file ever enters the repo
+*.secret
+.env
